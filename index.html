@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta char="UTF-8" />
+    <meta name="Author" content="Eben C." />
+    <meta name="description" content="a facebook login page from scratch" />
+    <title>Facebook - log in or sign up </title>
+    <link rel="stylesheet" href="./src/styles/main.css" />
+    <script src="https://livejs.com/live.js" > </script>
+    <script src="./src/script/main.js" ></script>
+  </head>
+
+  <body>
+    <!--main part of the page-->
+    <main>
+
+      <section class="title">
+
+        <h1>Facebook</h1>
+        <h3>Connect with friends and the world around you with facebook.</h3>
+
+      </section>
+      
+      <!--Authentication panel-->
+      <section class="panel">
+
+        <form method="POST" class="auth">
+
+          <div class="login">
+            
+            <!--login-->
+            <input type="text" class="input user"  placeholder="Email or phone number" required />
+            <input type="password" class="input passwd" placeholder="Password" required />
+            
+            <!--buttons-->
+            <input type="submit" class="btn send" value="Log In" />
+            <a href="#" class="lnk changePassword">Forgot password?</a>
+          
+          </div>
+          
+          <hr/>
+
+          <input type="button" class="btn signUp" value="Create new account" />
+
+        </form>
+
+        <span><a href="#"><b>Create a Page</b></a> for a celebrity, brand or business</span>
+
+      </section>
+
+    </main>
+
+    <!--footer icludes laguages and associates-->
+    <footer>
+
+      <div class="languages"> English Spanish chiness <input type="button" class="plus" value=" + " /></div>
+
+      <hr />
+
+      <div class="associates">Messenger Meta Whatsapp etc.</div>
+
+      <p>Meta &copy 2024</p>
+
+
+      <div>
+
+    </footer>
+  
+  </body>
+</html>
